@@ -14,7 +14,7 @@ from tensorflow.contrib import learn
 # in this part is for loading the data sets
 tf.flags.DEFINE_float("Percentage_of_Training_Data", .1, "training sets percentage can be used to validate")
 
-tf.flags.DEFINE_string("data_sets", "./data/rt-polaritydata/consumer_complaints.txt", "Data source for the consumer_comp data.")
+tf.flags.DEFINE_string("data_sets", "./data/datasets/consumer_complaints.txt", "Data source for the consumer_comp data.")
 
 
 # the lists of hyperparameters

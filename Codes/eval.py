@@ -12,7 +12,7 @@ import csv
 
 # all parameters
 
-tf.flags.DEFINE_string("data_sets", "./data/rt-polaritydata/consumer_complaints.txt", "Data source for the consumer_comp data.")
+tf.flags.DEFINE_string("data_sets", "./data/datasets/consumer_complaints.txt", "Data source for the consumer_comp data.")
 # for eval 
 
 tf.flags.DEFINE_integer("batch_size", 64, "Batch_Size")
